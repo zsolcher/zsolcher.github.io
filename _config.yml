@@ -14,14 +14,8 @@ picture: assets/images/profile.jpg
 # false to light theme, auto to switch with system.
 dark-theme: auto
 
-# If you want to include your resume, set to true
-# and specify source (external or local).
-resume: true
-resume-external: true
-resume-url: https://google.com/?q=my+resume
-
-url: https://sergiokopplin.github.io/indigo
-# your url: https://USERNAME.github.io
+url: https://zachsolcher.dev
+# your url: https://zsolcher.github.io
 
 permalink: /:title/
 
@@ -34,10 +28,10 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-instagram: myinstagram
-linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+linkedin: https://www.linkedin.com/in/zsolcher/
+instagram: https://www.instagram.com/zachsolcher/
+github: https://github.com/zsolcher
+email: zsolcher@gmail.com
 
 authors:
   zachsolcher:
@@ -47,7 +41,7 @@ authors:
     picture: assets/images/profile.jpg
     twitter: zsolcher
     github: zsolcher
-    email: your-email@example.com
+    email: zsolcher@gmail.com
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
