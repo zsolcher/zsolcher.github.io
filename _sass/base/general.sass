@@ -3,9 +3,19 @@ body, html
 
 @media #{$above}
 	body, html
-		font-size: 81.25%
+		font-size: 93.75% // 62.5% * 1.5 = 93.75%
 	body
-		font: 20.8px $fontSans
+		font: 24px $fontSans // 16px * 1.5 = 24px
+	// Scale up icons (FontAwesome, SVG, etc.)
+	i, .fa, .fa-brands, .fa-solid, .fa-regular, .fa-icon, svg
+		font-size: 1.5em
+		height: 1.5em
+		width: 1.5em
+	// Scale up buttons
+	button, .button, input[type="submit"], input[type="button"]
+		font-size: 1.5em
+		padding: 1.5em 2.3em
+		border-radius: 0.6em
 
 body
 	font: 16px $fontSans
