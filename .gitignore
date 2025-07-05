@@ -1,0 +1,34 @@
+.DS_Store
+.DS_Store?
+**/.DS_Store
+**/.DS_Store?
+
+# Jekyll and GitHub Pages
+_site/
+.sass-cache/
+.jekyll-metadata
+.jekyll-cache/
+
+# Ruby
+*.gem
+.bundle/
+vendor/
+Gemfile.lock
+
+# Logs and temp files
+*.log
+tmp/
+
+# VS Code
+.vscode/
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Node (if used for tooling)
+node_modules/
